@@ -85,7 +85,7 @@ export default function Hero() {
 
       {/* Mobile + tablet layout */}
       <motion.div
-        className="pointer-events-none absolute inset-x-0 bottom-0 top-[58%] z-10 flex justify-center sm:top-[56%] md:top-[52%] lg:hidden"
+        className="pointer-events-none absolute inset-x-0 bottom-0 top-[44%] z-10 flex justify-center sm:top-[40%] md:top-[36%] lg:hidden"
         style={{ y: mobileScrollY }}
       >
         <div
@@ -103,7 +103,7 @@ export default function Hero() {
       </motion.div>
 
       <motion.div
-        className="relative z-20 flex flex-col items-center px-5 pb-3 pt-[4.5rem] text-center sm:px-7 lg:hidden"
+        className="relative z-20 flex flex-col items-center px-5 pb-0 pt-[4.5rem] text-center sm:px-7 lg:hidden"
         style={{ y: compactScrollY }}
       >
         <motion.h1

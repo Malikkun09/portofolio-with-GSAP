@@ -183,11 +183,11 @@ export default function HeroCharacter({
       >
         <div className="relative flex h-full w-full max-w-[100vw] items-end justify-center">
           <CharacterEffects layout={layout} ready={appReady} />
-          <div className="absolute bottom-0 left-1/2 z-20 w-[min(100vw,820px)] max-w-none -translate-x-1/2 translate-y-[14%] sm:w-[min(100vw,760px)] sm:translate-y-[12%] md:w-[min(100vw,880px)] md:translate-y-[10%]">
+          <div className="absolute inset-0 z-20 flex items-end justify-center">
             <motion.img
               src={src}
               alt="Malik Fajar — cybersecurity learner and developer"
-              className="hero-character-img block h-[122%] w-full object-cover object-[50%_14%] sm:h-[124%] md:h-[126%] md:object-[50%_16%]"
+              className="hero-character-img block h-[min(52svh,430px)] w-[min(100vw,820px)] max-w-none object-cover object-[50%_22%] sm:h-[min(56svh,470px)] sm:w-[min(100vw,760px)] sm:object-[50%_20%] md:h-[min(58svh,520px)] md:w-[min(100vw,880px)] md:object-[50%_18%]"
               width={480}
               height={560}
               fetchPriority="high"
